@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Weather App</title>
+</head>
+<body>
+  <div class="card">
+    <div class="search">
+      <input type="text" placeholder="Enter a city name" />
+      <button><img src="../asseds/weather-app-img/images/search.png" alt="Search"></button>
+    </div>
+    <div class="error" style="display: none;">
+      <p>Invalid city name</p>
+    </div>
+    <div class="weather" style="display: none;">
+      <img src="" class="weather-icon" alt="Weather Icon">
+      <h1 class="temp"></h1>
+      <h2 class="city"></h2>
+      <div class="details">
+        <div class="col">
+          <img src="../asseds/weather-app-img/images/humidity.png" alt="Humidity">
+          <div>
+            <p class="humidity"></p>
+            <p>Humidity</p>
+          </div>
+        </div>
+        <div class="col">
+          <img src="../asseds/weather-app-img/images/wind.png" alt="Wind">
+          <div>
+            <p class="wind"></p>
+            <p>Wind Speed</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
